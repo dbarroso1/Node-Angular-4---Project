@@ -3,7 +3,7 @@ const zn = require('./zinc.config'), log = require('./zinc.logger'), api = requi
 
 // Start Connection to Database
 mongoose.Promise = require('bluebird')
-mongoose.connect(zn.database, { useMongoClient: true })
+mongoose.connect(zn.databaseURI, { useMongoClient: true })
 mongoose.connection.on('open', function () { log.dbCheck() }) //Mongoose Error Handling
     .on('error', () => { console.log("Mongo Error: ") })
     .on('disconnected', () => { console.log("MongoDB Disconnected! EXITING . . ."); process.exit(0) })
