@@ -18,7 +18,6 @@
 
 ## <a id="features">Features</a>
 Made with this Generations most powerful frameworks
-<img src="http://www.dotnettricks.com/img/nodejs/mean.png" align="right" width="35%">
 
  Database | Framework | Front | Runtime | API
  --- | --- | --- | --- | ---
