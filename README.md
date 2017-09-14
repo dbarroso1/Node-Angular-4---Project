@@ -54,6 +54,7 @@ const server = express();
     .then(() => require('./db-init')(server))
     .catch(err => console.error(err));
 ```
+<hr>
 
 ### <a id="see-also">See also</a>
 
