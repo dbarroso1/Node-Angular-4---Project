@@ -18,12 +18,12 @@
 
 ## <a id="features">Features</a>
 Made with this Generations most powerful frameworks
-<img src="http://www.dotnettricks.com/img/nodejs/mean.png" align="right" width="45%">
 
- Database | Framework | Front-end | Runtime | API
+ Database | Framework | Front | Runtime | API
  --- | --- | --- | --- | ---
  MongoDB | Express | Angular 4 | NodeJS 8.4 | Mongoose
 
+<img src="http://www.dotnettricks.com/img/nodejs/mean.png" align="right" width="45%">
 
 ### Application Features
 * Terminal Error Handling
