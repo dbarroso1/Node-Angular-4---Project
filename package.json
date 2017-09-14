@@ -17,8 +17,8 @@
     "nodemon": "^1.11.0",
     "terminal-kit": "^1.13.10"
   },
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/dbarroso1/ZinCMS.git"
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/dbarroso1/ZinCMS.git"
   }
 }
