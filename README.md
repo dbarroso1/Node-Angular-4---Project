@@ -23,18 +23,17 @@
 
 ### Directory Hierarchy 
 Simple to Configure and Manage, with simplified directories for easy debugging
-``` javascript
-/root
-  |-- /bin
-  |    |-- /models
-  |        |--- version.js 
-  |    |-- zinc.config.js          // Application Configuration variables
-  |    |-- zinc.logger.js          // Server Log Manager
-  |    |-- zinc.server.js          // Zinc Server Engine
-  |    |-- zinc.webapi.js          // Web API Manifest
-  |-- /public
-  |    |-- index.html              // Angular 4 Front End
-  |- package.json
+```
+bootstrap/
+ ├── bin/
+ │   ├── models/
+ │   ├── zinc.config.js          // Application Configuration variables
+ │   ├── zinc.logger.js          // Server Log Manager
+ │   ├── zinc.server.js          // Zinc Server Engine
+ │   └── zinc.webapi.js          // Web API Manifest
+ ├── public/ 
+ │   └── index.html              // Angular 4 Front End
+ ├── package.json
 ```
 ## <a id="errors">Errors</a>
 **[FIXED - ISSUE 1]** Catch(...).then of undefned, check Mongoose version, Catch() and Then() 
