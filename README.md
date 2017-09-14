@@ -1,29 +1,13 @@
 # Zinc CMS
+ Built on Node, Running on Express and Angular 4. a Fully featured Content Managmnt system, for casual and enterprise use.
+ 
 ### On this page
 
-1. [About Zinc](#zinc-content-managment-sy)
-1. [Installing](#installation)
 1. [Features](#features)
+1. [Installing](#installation)
 1. [Known Issues](#errors)
 1. [See also](#see-also)
 
-## <a id="zinc-content-managment-sy">Zinc Content Managment System</a>
- Built on Node, Running on Express and Angular 4
- 
-### Directory Hierarchy 
-``` javascript
-/root
-  |-- /bin
-  |    |-- /models
-  |        |--- version.js
-  |    |-- zinc.config.js
-  |    |-- zinc.logger.js
-  |    |-- zinc.server.js
-  |    |-- zinc.webapi.js
-  |-- /public
-  |    |-- index.html
-  |- package.json
-```
 ## <a id="installation">Installing</a>
 
 1. Clone from Github 
@@ -37,6 +21,21 @@
 * Live Request/Response Logging
 * MongoDB / Mongoose API
 
+### Directory Hierarchy 
+Simple to Configure and Manage, with simplified directories for easy debugging
+``` javascript
+/root
+  |-- /bin
+  |    |-- /models
+  |        |--- version.js 
+  |    |-- zinc.config.js          // Application Configuration variables
+  |    |-- zinc.logger.js          // Server Log Manager
+  |    |-- zinc.server.js          // Zinc Server Engine
+  |    |-- zinc.webapi.js          // Web API Manifest
+  |-- /public
+  |    |-- index.html              // Angular 4 Front End
+  |- package.json
+```
 ## <a id="errors">Errors</a>
 **[FIXED - ISSUE 1]** Catch(...).then of undefned, check Mongoose version, Catch() and Then() 
   * Solution: 
