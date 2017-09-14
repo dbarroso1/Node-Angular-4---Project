@@ -2,6 +2,7 @@
 ### On this page
 
 1. [About Zinc](#zinc-content-managment-sy)
+1. [Installing](#installation)
 1. [Features](#features)
 1. [Known Issues](#errors)
 1. [See also](#see-also)
@@ -23,6 +24,14 @@
   |    |-- index.html
   |- package.json
 ```
+## <a id="installation">Installing</a>
+
+1. Clone from Github 
+   * `git clone https://github.com/dbarroso1/Zinc.git && cd Zinc/`
+2. Install Packages 
+   * ` npm install `
+
+
 ## <a id="features">Features</a>
 * Terminal Error Handling
 * Live Request/Response Logging
