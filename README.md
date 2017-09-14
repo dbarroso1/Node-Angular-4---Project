@@ -1,2 +1,51 @@
-# Zinc
-Project Zinc
+# Zinc CMS
+### On this page
+
+1. [About Zinc](#zinc-content-managment-sy)
+1. [Features](#features)
+1. [Known Issues](#errors)
+1. [See also](#see-also)
+
+## <a id="zinc-content-managment-sy">Zinc Content Managment System</a>
+ Built on Node, Running on Express and Angular 4
+ 
+### Directory Hierarchy 
+``` javascript
+/root
+  |-- /bin
+  |    |-- /models
+  |        |--- version.js
+  |    |-- zinc.config.js
+  |    |-- zinc.logger.js
+  |    |-- zinc.server.js
+  |    |-- zinc.webapi.js
+  |-- /public
+  |    |-- index.html
+  |- package.json
+```
+## <a id="features">Features</a>
+* Terminal Error Handling
+* Live Request/Response Logging
+* MongoDB / Mongoose API
+
+## <a id="errors">Errors</a>
+**[FIXED - ISSUE 1]** Catch(...).then of undefned, check Mongoose version, Catch() and Then() 
+  * Solution: 
+    * Catch() and Then() are only available ~4.0.0+
+
+**[FIXED - ISSUE 2]** DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead 
+#### Solution:
+  ``` javascript          
+const server = express();
+. . . 
+. . . 
+ mongoose.connect('mongodb://localhost/advisorDemoTestDB', { useMongoClient: true }) // <=== HERE
+    .then(() => require('./db-init')(server))
+    .catch(err => console.error(err));
+```
+
+### <a id="see-also">See also</a>
+
+External resources
+
+* [Authenticate a Node.js API with JSON Web Tokens &#8213; Scotch - scotch.io](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
