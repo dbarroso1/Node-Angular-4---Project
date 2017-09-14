@@ -36,7 +36,7 @@ bootstrap/
  ├── package.json
 ```
 ## <a id="errors">Errors</a>
-**[FIXED - ISSUE 1]** Catch(...).then of undefned, check Mongoose version, Catch() and Then() 
+**[ISSUE 1 - FIXED]** Catch(...).then of undefned, check Mongoose version, Catch() and Then() 
 ##### Solution: 
 ``` 
 Catch() and Then() are only available ~4.0.0+ 
@@ -44,7 +44,7 @@ npm install express-4.x.x+
 ```
 
 
-**[FIXED - ISSUE 2]** DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead 
+**[ISSUE 2 - FIXED]** DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead 
 ##### Solution:
   ``` javascript          
 const server = express();
