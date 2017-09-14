@@ -60,3 +60,4 @@ const server = express();
 External resources
 
 * [Authenticate a Node.js API with JSON Web Tokens &#8213; Scotch - scotch.io](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
+* [NetNinja Youtube Walkthroughs - youtube.com](https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8)
