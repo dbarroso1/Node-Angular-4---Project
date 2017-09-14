@@ -10,8 +10,8 @@ var cnGet = [srv + '[GET] API Works! ' + chalk.green('╭∩(^_^)'), srv + '[GET
 var cnPut = [srv + '[POST] ', srv + '[UPDATE] ']
 var cnDel = [srv + '[DELETE] Server has Deleted']
 
-var cnMongo = [srv + statusScc + 'Mongoose connected succesfully \n', srv + 'Mongoose Listening at ' + config.database + '\n']
-var cnZinc = [srv + statusScc + 'Zinc started sucessfully \n', srv + 'Listening on: ' + config.server + ' . . . \n', srv + 'Zinc Web API is up at ' + config.server + '/api \n']
+var cnMongo = [srv + statusScc + 'Mongoose connected succesfully \n', srv + 'Mongoose Listening at ' + config.databaseURI + '\n']
+var cnZinc = [srv + statusScc + 'Zinc started sucessfully \n', srv + 'Listening on: ' + config.serverURI + ' . . . \n', srv + 'Zinc Web API is up at ' + config.serverURI + '/api \n']
 
 // System Logging Funtions
 function svCheck() { 
