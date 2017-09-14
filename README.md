@@ -18,8 +18,12 @@
 
 ## <a id="features">Features</a>
 Made with this Generations most powerful frameworks
+<img src="http://www.dotnettricks.com/img/nodejs/mean.png" align="right" width="45%">
 
-![Made With Mean Stack][mean-logo]
+ Database | Framework | Front-end | Runtime | API
+ --- | --- | --- | --- | ---
+ MongoDB | Express | Angular 4 | NodeJS 8.4 | Mongoose
+
 
 ### Application Features
 * Terminal Error Handling
@@ -67,5 +71,3 @@ External resources
 
 * [Authenticate a Node.js API with JSON Web Tokens &#8213; Scotch - scotch.io](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
 * [REST API Tutorials (Node, Express & Mongo) The Net Ninja - youtube.com](https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8)
-
-[mean-logo]: http://www.dotnettricks.com/img/nodejs/mean.png
