@@ -1,4 +1,4 @@
-# Zinc CMS
+# Zinc Platform
  Built on Node, Running on Express and Angular 4. a Fully featured Content Managmnt system, for casual and enterprise use.
  
 ### On this page
@@ -37,11 +37,11 @@ bootstrap/
  │   ├── models/
  │   ├── zinc.config.js          // Application Configuration variables
  │   ├── zinc.logger.js          // Server Log Manager
- │   ├── zinc.server.js          // Zinc Server Engine
  │   └── zinc.webapi.js          // Web API Manifest
  ├── public/ 
  │   └── index.html              // Angular 4 Front End
  ├── package.json
+ └── zinc.server.js              // Zinc Server Engine
 ```
 ## <a id="errors">Errors</a>
 **[ISSUE 1 - FIXED]** Catch(...).then of undefned, check Mongoose version, Catch() and Then() 

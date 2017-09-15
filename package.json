@@ -1,5 +1,5 @@
 {
-  "name": "zinc-cms",
+  "name": "zinc",
   "version": "1.0.0",
   "author": "DBarroso",
   "main": "zinc.server.js",
