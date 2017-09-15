@@ -70,3 +70,4 @@ External resources
 
 * [Authenticate a Node.js API with JSON Web Tokens &#8213; Scotch - scotch.io](https://scotch.io/tutorials/authenticate-a-node-js-api-with-json-web-tokens)
 * [REST API Tutorials (Node, Express & Mongo) The Net Ninja - youtube.com](https://www.youtube.com/watch?v=BRdcRFvuqsE&list=PL4cUxeGkcC9jBcybHMTIia56aV21o2cZ8)
+* [Create NodeJS CLI for an Appplication](https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/)
