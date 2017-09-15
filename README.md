@@ -1,4 +1,4 @@
-# Zinc CMS
+# Zinc Platform
  Built on Node, Running on Express and Angular 4. a Fully featured Content Managmnt system, for casual and enterprise use.
  
 ### On this page
