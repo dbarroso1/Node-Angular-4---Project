@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "author": "DBarroso",
   "main": "zinc.server.js",
-  "license":"MIT",
-  "description":"NULL",
+  "license": "MIT",
+  "description": "NULL",
   "scripts": {
-    "start": "nodemon bin/zinc.server.js"
+    "start": "nodemon zinc.server.js"
   },
   "dependencies": {
     "bluebird": "^3.5.0",
@@ -17,8 +17,8 @@
     "nodemon": "^1.11.0",
     "terminal-kit": "^1.13.10"
   },
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/dbarroso1/ZinCMS.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dbarroso1/ZinCMS.git"
   }
 }

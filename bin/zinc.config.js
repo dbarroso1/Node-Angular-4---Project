@@ -1,5 +1,5 @@
 // Server Info
-var svhost = 'localhost'
+var svhost = '127.0.0.1'
 var svport = '4200'
 var serverURI = svhost + ':' + svport
 // Database Info
