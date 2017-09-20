@@ -1,5 +1,13 @@
-const express = require('express'), path = require('path'), http = require('http'), bodyParser = require('body-parser'), mongoose = require('mongoose'), zinc = express();
-const zn = require('./bin/zinc.config'), log = require('./bin/zinc.logger'), api = require('./bin/zinc.api');
+const express = require('express'), 
+      path = require('path'),
+      http = require('http'), 
+      bodyParser = require('body-parser'),
+      mongoose = require('mongoose'),
+      zinc = express();
+
+const zn = require('./bin/zinc.config'), 
+      log = require('./bin/zinc.logger'),
+      api = require('./bin/zinc.api');
 
 // Start Connection to Database
 mongoose.Promise = require('bluebird')
